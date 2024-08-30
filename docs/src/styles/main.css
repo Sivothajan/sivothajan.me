@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+body {
+    display: flex;
+    background-color:#65C3D8;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'IBM Plex Mono';
+}
+
+main {
+    text-align: center;
+}
+
+.flex-container {
+    font-family: 'IBM Plex Mono';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+    align-items: flex-start;
+    border: none;
+    gap: 16px; 
+}
+
+.flex-item {
+    font-family: 'IBM Plex Mono';
+    flex: 1 1 calc(50% - 16px); 
+    padding: 16px;
+    box-sizing: border-box;
+    border: 1px solid #e3cfcf;
+    border-radius: 32px;
+    box-shadow: 0 4px 6px rgba(95, 104, 133, 0.1), 0 1px 3px rgba(56, 46, 123, 0.08);
+    background-color: #f4e288;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.flex-item:hover {
+    box-shadow: 0 12px 16px rgba(136, 127, 245, 0.472), 0 3px 6px rgba(87, 73, 167, 0.53);
+}
+
+h3 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: midnightblue; 
+}
+
+a:hover {
+    color: darkorange;
+}
+
+a:active {
+    color: blueviolet;
+}
+
+.h1-name {
+    font-family: 'Helvetica';
+    margin-bottom: 40px;
+}
+
+.h1-404 {
+    font-family: 'IBM Plex Mono';
+    margin-bottom: 40px;
+}
+
+.links a {
+    color: midnightblue;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: darkorange;
+}
+
+.image {
+    display: block;           
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    transform: scale(1.5);
+    transform-origin: center;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 200px; 
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.circle img {
+    width: 100%;
+    height: auto; 
+}
