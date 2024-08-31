@@ -9,25 +9,25 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: lavender;
+    background-color: darkslategrey;
     font-size: 16px;
 }
 
 @keyframes snakeGlow {
     0% {
-        box-shadow: 0 0 10px #2796f6;
+        box-shadow: 0 0 10px #1470c5;
     }
     25% {
-        box-shadow: 10px 10px 20px #2796f6;
+        box-shadow: 10px 10px 20px #0a3b69;
     }
     50% {
-        box-shadow: 0 0 30px #2796f6;
+        box-shadow: 0 0 30px #0a3b69;
     }
     75% {
-        box-shadow: -10px -10px 20px #2796f6;
+        box-shadow: -10px -10px 20px #0a3b69;
     }
     100% {
-        box-shadow: 0 0 10px #2796f6;
+        box-shadow: 0 0 10px #0a3b69;
     }
 }
 
@@ -36,7 +36,7 @@ body {
     max-width: 18.5cm;
     height: auto;
     margin: 2cm;
-    background-color: wheat;
+    background-color: darkgray;
     padding: 2cm;
     animation: snakeGlow 6s infinite;
     border-radius: 5px;
@@ -68,7 +68,7 @@ body {
 }
 
 .contact-info {
-    background-color: whitesmoke;
+    background-color: darkcyan;
     padding: 2em;
     border-radius: 5px;
     margin-bottom: 1.5em;
@@ -86,7 +86,7 @@ body {
 }
 
 .contact-info a {
-    color: #007bff;
+    color: darkblue;
     text-decoration: none;
 }
 
@@ -145,7 +145,7 @@ a {
 }
 
 a:hover {
-    color: goldenrod;
+    color: rgb(238, 184, 84);
 }
 
 
@@ -167,7 +167,7 @@ a:hover {
 }
 
 .h1-link:hover {
-    color: rgb(235, 201, 50);
+    color: rgb(198, 175, 74);
 }
 
 .link:link {
@@ -188,7 +188,7 @@ a:hover {
 }
 
 .link:hover {
-    color: goldenrod;
+    color: rgb(162, 110, 14);
 }
 
 .popup {
@@ -205,7 +205,7 @@ a:hover {
 }
 
 .popup-content {
-    background-color: lavender;
+    background-color: rgb(154, 154, 168);
     padding: 20px;
     border-radius: 8px;
     text-align: center;
@@ -216,7 +216,7 @@ a:hover {
 .cv-version{
     margin-bottom: 0;
     text-align: right;
-    color: grey;
+    color: rgb(212, 212, 212);
     font-size: 0.75em;
 }
 
@@ -278,7 +278,7 @@ a:hover {
     top: 20px;
     right: 20px;
     padding: 10px 20px;
-    background-color: wheat;
+    background-color: darkgray;
     border: 2px solid #422800;
     border-radius: 30px;
     box-shadow: #422800 4px 4px 0 0;
@@ -290,7 +290,7 @@ a:hover {
 }
 
 .rain-toggle-button:hover {
-    background-color: whitesmoke;
+    background-color: rgb(88, 146, 146);
 }
 
 .rain-toggle-button:active {
